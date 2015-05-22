@@ -1,0 +1,12 @@
+{
+  "title": "Weather",
+  "description": "A small weather app using OpenWeather API.",
+  "category": "Small Apps",
+  "main": "app.js",
+  "dependencies": {
+    "tabris": "~1.0.0",
+    "whatwg-fetch": "~0.8.1",
+    "promise": "~6.1.0",
+    "dateformat": "~1.0.11"
+  }
+}
