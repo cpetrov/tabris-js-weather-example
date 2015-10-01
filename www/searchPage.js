@@ -32,6 +32,10 @@
     tabris.create("TextView", {id: "messageTextView"}).appendTo(page).on("select", showCity);
   }
 
+  console.log("relative ./ notation: " + tabris.app.getResourceLocation("./images/start_page_background.jpg"));
+  console.log("relative omitted root notation: " + tabris.app.getResourceLocation("images/start_page_background.jpg"));
+  console.log("relative / root notation: " + tabris.app.getResourceLocation("/images/start_page_background.jpg"));
+
   var styles = {
     "#backgroundImage": {
       layoutData: {left: 0, top: 0, right: 0, bottom: 0},
