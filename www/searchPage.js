@@ -40,7 +40,7 @@
     "#backgroundImage": {
       layoutData: {left: 0, top: 0, right: 0, bottom: 0},
       scaleMode: "fill",
-      image: {src: "./images/start_page_background.jpg"}
+      image: {src: tabris.app.getResourceLocation("./images/start_page_background.jpg")}
     },
     "#title": {
       markupEnabled: true,
